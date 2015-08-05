@@ -1,0 +1,17 @@
+target/*
+target
+/target
+.settings*
+.myeclipse*
+.mymetadata*
+*.class
+WebRoot/WEB-INF/classes/*
+*.swp
+/bin
+*~
+.DS_Store
+.idea
+*.iml
+.classpath
+.project
+logs

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans     
+    http://www.springframework.org/schema/beans/spring-beans.xsd  
+    http://www.springframework.org/schema/task     
+    http://www.springframework.org/schema/task/spring-task-3.0.xsd"
+    default-autowire="byName">
+       
+    <import resource="enum.xml" />
+    
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		
+		<!-- 
+		<property name="jdbcUrl">
+			<value>jdbc:mysql://127.0.0.1/wwerp?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</value>
+		</property>
+		<property name="user">
+			<value>im</value>
+		</property>
+		<property name="password">
+			<value>im</value>
+		</property> -->
+		
+		<property name="jdbcUrl">
+			<value>jdbc:mysql://127.0.0.1/weixing?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</value>
+		</property>
+		<property name="user">
+			<value>im</value>
+		</property>
+		<property name="password">
+			<value>im</value>
+		</property>
+	 
+		<property name="minPoolSize">
+			<value>5</value>
+		</property>
+		<property name="maxPoolSize">
+			<value>15</value>
+		</property>
+		<property name="maxIdleTime">
+			<value>28</value>
+		</property>
+		<property name="breakAfterAcquireFailure">
+			<value>true</value>
+		</property>
+		<property name="checkoutTimeout">
+			<value>5000</value>
+		</property>
+		<property name="acquireRetryAttempts">
+			<value>100000</value>
+		</property>
+		<property name="acquireRetryDelay">
+			<value>5000</value>
+		</property>
+	</bean>
+
+	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+
+	<bean id="wxDao" class="wx.WxDao">
+		<property name="jt" ref="jt"></property>
+	</bean>
+</beans>

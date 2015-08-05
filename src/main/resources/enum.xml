@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans     
+    http://www.springframework.org/schema/beans/spring-beans.xsd  
+    http://www.springframework.org/schema/task     
+    http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+	<bean id="wxEnum" class="wx.WxEnum">
+		<property name="items">
+			<map>
+				<entry key="Gender">
+					<map>
+						<entry key="1" value="男" />
+						<entry key="2" value="女" />
+					</map>
+				</entry>
+				<entry key="Area">
+					<map>
+						<entry key="1" value="泰华商圈" />
+						<entry key="2" value="中百商圈" />
+					</map>
+				</entry>
+				<entry key="Category">
+					<map>
+						<entry key="1" value="餐饮" />
+						<entry key="2" value="服装" />
+						<entry key="2" value="美发" />
+					</map>
+				</entry>
+				<entry key="AdminArea">
+					<map>
+						<entry key="1" value="潍坊" />
+						<entry key="2" value="烟台" />
+					</map>
+				</entry>
+				<entry key="Roles">
+					<map>
+						<entry key="1" value="允许发布广告" />
+						<entry key="2" value="允许创建用户" />
+						<entry key="3" value="允许创建商户" />
+						<entry key="4" value="允许创建广告主" />
+					</map>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>
