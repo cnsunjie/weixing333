@@ -73,7 +73,7 @@
                 <td><%=o.Mobile%></td>
                 <td><%=n(WxEnum.getValue(WxEnum.Name.AdminArea, o.Area))%></td>
                 <td>
-                	<% if (o.Account.equals("admin")) { %>
+                	<% if (!o.Account.equals("admin")) { %>
                     	<a class="opt_icon edit" title="修改" href="adminuser_add.jsp?Id=<%=o.Id%>&backurl=<%=Util.urlEncode(pd.getCurPageLink(new String[]{"Id","act"}))%>"></a>
                     	<a class="opt_icon delete" title="删除" href="javascript:deleteOne('<%=pd.getCurPageLink(new String[]{"Id", "act"}) %>&Id=<%=o.Id%>&act=delete')"></a>
                     <%} %>

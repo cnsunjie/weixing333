@@ -10,7 +10,7 @@
 	if (text == null) {
 		boolean success = ("true".equalsIgnoreCase(request.getParameter("Success")));
 		if (success) {
-			if (type == Constants.ACT_TYPE_ADD)
+			if (type == Constants.ACT_TYPE_ADD)  
 				text = "添加成功";
 			else if (type == Constants.ACT_TYPE_MODIFY)
 				text = "修改成功";

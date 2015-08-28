@@ -1,0 +1,959 @@
+建场景，请求模板列表：
+URL: http://127.0.0.1/index.php?c=statics&a=typelist
+返回：
+{"success":true,"code":200,"msg":"操作成功","obj":null,"map":null,"list":[{"id":13,"name":"行业","value":101
+,"type":"scene_type","sort":1,"status":1,"remark":null},{"id":14,"name":"企业","value":103,"type":"scene_type"
+,"sort":2,"status":1,"remark":null},{"id":15,"name":"风格","value":105,"type":"scene_type","sort":3,"status"
+:1,"remark":null},{"id":16,"name":"个人","value":102,"type":"scene_type","sort":4,"status":1,"remark":null
+},{"id":17,"name":"节日","value":104,"type":"scene_type","sort":5,"status":1,"remark":null}]}
+
+URL: http://127.0.0.1/index.php?c=scene&a=syslist&tplType=1&orderBy=new&pageNo=1&pageSize=11&time=1440038602343
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map": {"count": 214,"pageNo": 1,"pageSize": 11
+},"list": [{
+            "id": 267062,
+            "name": "VOCALOID\u6b4c\u59ec\u7cfb\u5217\u8f6f\u4ef6",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 105,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/cd82bfad51891ea0a1dbc1ba4c59f063.mp3",
+                    "type": "3"
+                },
+                "imgSrc": "syspic/scene/7beaa45f4ff06104e589dc41cb130de5.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S4W3445K834",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 6,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267066,
+            "name": "2014\u5e74\u4e2d\u56fd\u4e92\u8054\u7f51\u6570\u636e\u603b\u7ed3\u62a5\u544a",
+
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 105,
+            "pageMode": 5,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/99138a704dc87beaf444da18a1908de6.mp3",
+                    "type": "3"
+                },
+                "imgSrc": "syspic/scene/c2054991224a245c4fd4a527c7c9f121.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "SC9RAUL35LF",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 12,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 6205327,
+            "name": "\u9009\u62e9",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 104,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "",
+                    "type": "0"
+                },
+                "imgSrc": "syspic/pageimg/yq0KEVVb3DaAB13HAABwF2hukjg622.png",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "cmkKCzh0",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 1,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267168,
+            "name": "\u667a\u8fb0\u89c6\u89c9",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "",
+                    "type": "0"
+                },
+                "imgSrc": "syspic/scene/yq0KA1UaWAyAYbhxAABAM7b9bns922.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S6058RKKV3",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 1,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267167,
+            "name": "\u597d\u7684\u7cbd\u5b50\u5305\u88c5\u662f\u53ef\u4ee5\u5e2e\u60a8\u8d5a\u94b1\u7684
+\uff01",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/yq0KA1UGU3WANi_XAAaj8to8DYc976.mp3",
+                    "type": "2"
+                },
+                "imgSrc": "syspic/scene/yq0KA1UGrfeAfqTZAAKRYlz9UBw319.png",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S6054X23X5",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 0,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267166,
+            "name": "\u7cbd\u5b50\u7684\u5ac1\u8863\uff0c\u4e3a\u7cbd\u800c\u751f\uff01",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/yq0KA1UL7rmANEjsAAbaMYOwuLs892.mp3",
+                    "type": "2"
+                },
+                "imgSrc": "syspic/scene/yq0KA1UL_geAYo-yAABLRAV_cxk184.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S6053CSY9U",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 0,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267165,
+            "name": "\u521d\u4e94\u8bf4",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/yq0KA1UGUCaAaofQAATsrQPhWNU540.mp3",
+                    "type": "2"
+                },
+                "imgSrc": "syspic/scene/yq0KA1UEAiSAVfaaAABdRJ9YUSs567.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S605D25274",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 0,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267164,
+            "name": "\u6211\u5e0c\u671b\uff0c\u68a6\u9192\u4e86\uff0c\u7238\u7238\u4f9d\u7136\u5728\u2026
+\u2026",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/yq0KA1U3VdiAHBEcABrzw2NrDHw849.mp3",
+                    "type": "2"
+                },
+                "imgSrc": "syspic/scene/yq0KA1U4zwCAJsLzAAAUq3_EyEo995.png",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S605S6LCW7",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 0,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267163,
+            "name": "\u8bd7\u6d77\uff08\u793e\u6587\u5e1d\/\u8457\uff09",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/yq0KA1UTGVeAYuBDAAoFwEqbUcg548.mp3",
+                    "type": "2"
+                },
+                "imgSrc": "syspic/scene/yq0KA1USWmCAUbP2AAIjNN5d820784.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S605YM6F46",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 0,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267162,
+            "name": "\u751f\u65e5\u5feb\u4e50\uff083\uff09",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/yq0KA1RtR0SAQmUgAAhGwF6ejdQ433.mp3",
+                    "type": "3"
+                },
+                "imgSrc": "syspic/scene/yq0KA1U3ZbWABfkzAAEJgQjmNvE220.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S6054KQ4ML",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 0,
+            "userLoginName": null,
+            "userName": null
+        },{
+            "id": 267161,
+            "name": "\u751f\u65e5\u5feb\u4e50\uff084\uff09",
+            "createUser": "0",
+            "createTime": 1423645519000,
+            "type": 101,
+            "pageMode": 0,
+            "image": {
+                "bgAudio": {
+                    "url": "syspic/mp3/yq0KA1RtR0SAQmUgAAhGwF6ejdQ433.mp3",
+                    "type": "3"
+                },
+                "imgSrc": "syspic/scene/yq0KA1U3ZW2APUpiAADWEvcFZAA018.jpg",
+                "hideEqAd": false,
+                "isAdvancedUser": false
+            },
+            "isTpl": 0,
+            "isPromotion": 0,
+            "status": 1,
+            "openLimit": 0,
+            "submitLimit": 0,
+            "startDate": null,
+            "endDate": null,
+            "accessCode": null,
+            "thirdCode": null,
+            "updateTime": 1423645519000,
+            "publishTime": 1423645519000,
+            "applyTemplate": 0,
+            "applyPromotion": 0,
+            "sourceId": 1225273,
+            "code": "S605B8P922",
+            "description": null,
+            "sort": 0,
+            "pageCount": 0,
+            "dataCount": 0,
+            "showCount": 0,
+            "userLoginName": null,
+            "userName": null
+        }]}
+        
+URL:http://127.0.0.1/index.php?c=statics&a=all&line=7248&pageNo=1&pageSize=4&unread=true&time=1440038602444
+返回：
+{"success":true,"code":200,"msg":"操作成功","obj":null,"map":[{"id":16633,"name":"行业","value":"101","type"
+:"scene_type","sort":1,"status":1,"remark":null}],"list":null}
+
+根据模板创建微场景
+URL:http://127.0.0.1/index.php?c=scene&a=createBySys
+POST：
+id	 267066
+name	2014年中国互联网数据总结报告
+pageMode	2
+type	101
+
+返回：
+{"success":true,"code":200,"msg":"success","obj":"6205332","map":null,"list":null}
+
+创建完后的查询：
+URL:http://127.0.0.1/index.php?c=scene&a=pageList&id=6205332&date=1440039147632
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map":null,"list":[{"id":2424,"sceneId":6205332
+,"num":1,"name":"","properties":null,"elements":null,"scene":null},{"id":2425,"sceneId":6205332,"num"
+:2,"name":"","properties":null,"elements":null,"scene":null},{"id":2426,"sceneId":6205332,"num":3,"name"
+:"","properties":null,"elements":null,"scene":null},{"id":2427,"sceneId":6205332,"num":4,"name":"","properties"
+:null,"elements":null,"scene":null},{"id":2428,"sceneId":6205332,"num":5,"name":"","properties":null
+,"elements":null,"scene":null},{"id":2429,"sceneId":6205332,"num":6,"name":"","properties":null,"elements"
+:null,"scene":null},{"id":2430,"sceneId":6205332,"num":7,"name":"","properties":null,"elements":null
+,"scene":null},{"id":2431,"sceneId":6205332,"num":8,"name":"","properties":null,"elements":null,"scene"
+:null}]}
+
+URL:http://127.0.0.1/index.php?c=upfile&a=systag&type=88&bizType=1101&time=1440039148266
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map":null,"list":[{"id":1,"name":"\u56fe\u6587"
+,"createUser":"0","createTime":1423122412000,"bizType":1101},{"id":2,"name":"\u56fe\u96c6","createUser"
+:"0","createTime":1423122412000,"bizType":1101},{"id":4,"name":"\u6587\u5b57","createUser":"0","createTime"
+:1423122412000,"bizType":1101},{"id":5,"name":"\u56fe\u8868","createUser":"0","createTime":1423122412000
+
+URL:http://127.0.0.1/index.php?c=scene&a=design&id=2424&time=1440039148390
+返回：
+{"success": true,"code": 200,"msg": "success","obj": {"id": 2424,"sceneId": 6205332,"num": 1,"name":
+ null,"properties": null,"elements": [{"id":60108559,"pageId":"2424","sceneId":"6205332","type":"3","css"
+:[],"properties":{"bgColor":"#F6F7FB"}},{"id":60108560,"pageId":"2424","sceneId":"6205332","type":"2"
+,"content":"<div style=\"text-align: center;\"><b style=\"color: inherit; line-height: inherit; background-color
+: initial;\"><font size=\"7\">2014<\/font><\/b><\/div><div style=\"text-align: center;\"><span style
+=\"color: inherit; line-height: inherit; background-color: initial;\"><font size=\"3\">2015\u5e741\u670826
+\u65e5<\/font><\/span><\/div>","css":{"height":"91","zIndex":"264","width":"159","left":"7px","top":"71px"
+},"properties":{"anim":{"type":1,"direction":0,"duration":1,"delay":0.4,"countNum":1}}},{"id":60108563
+,"pageId":"2424","sceneId":"6205332","type":"4","css":{"height":"79","zIndex":"246","width":"71","left"
+:"30px","top":"407px"},"properties":{"anim":{"type":1,"direction":3,"duration":0.4,"delay":1,"countNum"
+:1},"height":"100px","imgStyle":{"width":71,"height":112,"marginTop":"-16.5px","marginLeft":"0px"},"width"
+:"100px","src":"syspic\/pageimg\/71b07a6de3211f45546c1b66cfdb07af.jpg"}},{"id":60108564,"pageId":"2424"
+,"sceneId":"6205332","type":"4","css":{"height":"148","zIndex":"230","width":"71","left":"128px","top"
+:"338px"},"properties":{"anim":{"type":1,"direction":3,"duration":0.4,"delay":1.1,"countNum":1},"height"
+:"100px","imgStyle":{"width":93,"height":148,"marginTop":"0px","marginLeft":"-11px"},"width":"100px"
+,"src":"syspic\/pageimg\/dcb92838d92be9aab3fbc1babb2ac583.jpg"}},{"id":60108561,"pageId":"2424","sceneId"
+:"6205332","type":"2","content":"<font size=\"6\">\u4e2d\u56fd\u4e92\u8054\u7f51<\/font><div><font size
+=\"6\">\u6570\u636e\u603b\u7ed3\u62a5\u544a<\/font><\/div>","css":{"borderRadius":"0px","lineHeight"
+:"1","borderStyle":"solid","paddingTop":"0","zIndex":"282","borderColor":"rgba(0,0,0,1)","backgroundColor"
+:"","width":"223","borderTopRightRadius":"0px","borderBottomRightRadius":"0px","borderRadiusPerc":"0"
+,"transform":"rotateZ(0deg)","height":"88","borderTopLeftRadius":"0px","color":"#676767","boxShadow"
+:"0px 0px 0px rgba(0,0,0,0.5)","borderWidth":"0","borderBottomLeftRadius":"0px","opacity":"1","left"
+:"18px","boxShadowSize":"0","paddingBottom":"0","top":"168px","boxShadowDirection":"0"},"properties"
+:{"anim":{"type":1,"direction":0,"duration":1,"delay":0.8,"countNum":1}}},{"id":60108565,"pageId":"2424"
+,"sceneId":"6205332","type":"4","css":{"height":"103","zIndex":"237","width":"71","left":"222px","top"
+:"383px"},"properties":{"anim":{"type":1,"direction":3,"duration":0.4,"delay":1.2,"countNum":1},"height"
+:"100px","imgStyle":{"width":71,"height":114,"marginTop":"-5.5px","marginLeft":"0px"},"width":"100px"
+,"src":"syspic\/pageimg\/c48fbe5666c46e8cb95bf5bfd29f3c1e.jpg"}},{"id":60108567,"pageId":"2424","sceneId"
+:"6205332","type":"4","css":{"borderRadius":"0px","lineHeight":"1","borderStyle":"solid","paddingTop"
+:"0","zIndex":"287","borderColor":"rgba(0,0,0,1)","backgroundColor":"","width":"51","borderTopRightRadius"
+:"0px","borderBottomRightRadius":"0px","borderRadiusPerc":"0","transform":"rotateZ(0deg)","height":"51"
+,"borderTopLeftRadius":"0px","boxShadow":"0px 0px 0px rgba(0,0,0,0.5)","color":"#676767","borderWidth"
+:"0","borderBottomLeftRadius":"0px","opacity":"1","left":"234px","boxShadowSize":"0","paddingBottom"
+:"0","boxShadowDirection":"0","top":"183px"},"properties":{"anim":{"type":3,"direction":0,"duration"
+:0.4,"delay":1.4,"countNum":1},"height":"100px","imgStyle":{"width":51,"height":51,"marginTop":"0px"
+,"marginLeft":"0px"},"width":"100px","src":"syspic\/pageimg\/2be190ffeaf1527e457acf7aff4ea603.png"}}
+,{"id":60108569,"pageId":"2424","sceneId":"6205332","type":"4","css":{"height":"48","zIndex":"207","width"
+:"50","left":"40px","top":"360px"},"properties":{"anim":{"type":2,"direction":3,"duration":0.8,"delay"
+:1.2,"countNum":1},"height":"100px","imgStyle":{"width":50,"height":48,"marginTop":"0px","marginLeft"
+:"0px"},"width":"100px","src":"syspic\/pageimg\/484f75b008130b98a398f42bda1b6cea.png"}},{"id":60108570
+,"pageId":"2424","sceneId":"6205332","type":"4","css":{"height":"65","zIndex":"216","width":"50","left"
+:"231px","top":"319px"},"properties":{"anim":{"type":2,"direction":3,"duration":0.8,"delay":1.4,"countNum"
+:1},"height":"100px","imgStyle":{"width":50,"height":66,"marginTop":"-0.5px","marginLeft":"0px"},"width"
+:"100px","src":"syspic\/pageimg\/1b5f1ff6ecb464a46d0d45240e961485.png"}},{"id":60108568,"pageId":"2424"
+,"sceneId":"6205332","type":"4","css":{"height":"44","zIndex":"198","width":"50","left":"137px","top"
+:"294px"},"properties":{"anim":{"type":2,"direction":3,"duration":0.8,"delay":1.3,"countNum":1},"height"
+:"100px","imgStyle":{"width":50,"height":45,"marginTop":"-0.5px","marginLeft":"0px"},"width":"100px"
+,"src":"syspic\/pageimg\/0247f4385bb72266188b71c96a44cae7.png"}},{"id":60108566,"pageId":"2424","sceneId"
+:"6205332","type":"4","css":{"borderRadius":"0px","lineHeight":"1","borderStyle":"solid","paddingTop"
+:"0","zIndex":"270","borderColor":"rgba(0,0,0,1)","backgroundColor":"","width":"256","borderTopRightRadius"
+:"0px","borderBottomRightRadius":"0px","borderRadiusPerc":"0","transform":"rotateZ(0deg)","height":"24"
+,"borderTopLeftRadius":"0px","boxShadow":"0px 0px 0px rgba(0,0,0,0.5)","color":"#676767","borderWidth"
+:"0","borderBottomLeftRadius":"0px","opacity":"0.6","left":"32px","boxShadowSize":"0","paddingBottom"
+:"0","boxShadowDirection":"0","top":"150px"},"properties":{"anim":{"type":2,"direction":0,"duration"
+:1,"delay":0.6,"countNum":1},"height":"100px","imgStyle":{"width":256,"height":41,"marginTop":"-8.5px"
+,"marginLeft":"0px"},"width":"100px","src":"syspic\/pageimg\/0e93eaae2d4aad5b2a936d9887fd26de.png"}}
+],"scene": {"id": 6205332,"name": "2014\u5e74\u4e2d\u56fd\u4e92\u8054\u7f51\u6570\u636e\u603b\u7ed3\u62a5
+\u544a","createUser": "6","createTime": 1425998747000,"type": 101,"pageMode": 5,"image": {"imgSrc": "5"
+,"isAdvancedUser": false,"bgAudio": {"url": "syspic/mp3/99138a704dc87beaf444da18a1908de6.mp3","type"
+: "3"}},"isTpl": 0,"isPromotion": 0,"status": 1,"openLimit": 0,	"submitLimit": 0,	"startDate": null,
+	"endDate": null,	"accessCode": null,	"thirdCode": null,	"updateTime": 1426038857000,	"publishTime":
+ 1426038857000,	"applyTemplate": 0,	"applyPromotion": 0,	"sourceId": null,	"code": "U60820Q58QDJ",	"description"
+: "",	"sort": 0,"pageCount": 0,	"dataCount": 0,	"showCount": 0,	"userLoginName": null,"userName": null
+}},	"map": null,"list": null}
+
+URL:http://127.0.0.1/index.php?c=scene&a=syspagetpl&tagId=1&bizType=1101&time=1440039148887
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map": null,"list": [{"id":155,"sceneId":1,"num"
+:1,"name":"name","properties":{"thumbSrc":"syspic/page/de8b1a499862399408564321e20e21d6.png"},"elements"
+:null,"scene":null},{"id":154,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page
+/f9b0ae78fe73df4449b1070330f503c1.png"},"elements":null,"scene":null},{"id":124,"sceneId":1,"num":1,"name"
+:"name","properties":{"thumbSrc":"syspic/page/db1631909b68afd242d32a289d571455.png"},"elements":null
+,"scene":null},{"id":126,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/4b7e5b81ca60d9dece2df31d6edb0fa6
+.png"},"elements":null,"scene":null},{"id":125,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/4d44760004c1d25c9cf5bec1a2283fa7.png"},"elements":null,"scene":null},{"id":122,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/fa67c473a4ccc21edaaa17ffb55f575a.png"
+},"elements":null,"scene":null},{"id":121,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/bdbc4fa3334a5c4b61580080eeb6f221.png"},"elements":null,"scene":null},{"id":120,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/e9a7a1fc9103098e4b9014de7976d972.png"
+},"elements":null,"scene":null},{"id":119,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/c40efde8c051d4b7074d70024fc13cf7.png"},"elements":null,"scene":null},{"id":118,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/4c5e6d63da29aee45e966459631c738c.png"
+},"elements":null,"scene":null},{"id":117,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/c2481b25270215d4727089b2e15cfb05.png"},"elements":null,"scene":null},{"id":116,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/1ced11ef88ea63b6fc013084d4b160f0.png"
+},"elements":null,"scene":null},{"id":115,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/a0cdc6c053ee5e639fc974132d8fd1b1.png"},"elements":null,"scene":null},{"id":114,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/1b4fa9266d012d0ceeb73cffdf11e293.png"
+},"elements":null,"scene":null},{"id":113,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/ff329eb231b19b12dc8f637cd917026f.png"},"elements":null,"scene":null},{"id":112,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/88ad46bf570a2c80c4461a4fbb98b10f.png"
+},"elements":null,"scene":null},{"id":111,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/74fdd05f586e265755f75a2f3267cc72.png"},"elements":null,"scene":null},{"id":132,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/0d3e522cfea4a01f261a630f1b81cac8.png"
+},"elements":null,"scene":null},{"id":131,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/0d7a45fffff7518bd6e125cf5b46b51a.png"},"elements":null,"scene":null},{"id":130,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/71370fd3a8fc7c7c7344144aa3a0843f.png"
+},"elements":null,"scene":null},{"id":129,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/4b87d6f50a97592a0b7658510b3f433e.png"},"elements":null,"scene":null},{"id":128,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/b7f7e920c2d38b3034a2b198b4fef142.png"
+},"elements":null,"scene":null},{"id":127,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/acf058d0c96f5cf9b47dbcc57aecf894.png"},"elements":null,"scene":null},{"id":123,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/4b9fb57cff5ec215bd3d512ed4a4b807.png"
+},"elements":null,"scene":null},{"id":133,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/1500fa3bf1f7ab023a81df17a0bd001a.png"},"elements":null,"scene":null},{"id":134,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/83ff9591387bc3c7895ee97840069667.png"
+},"elements":null,"scene":null},{"id":150,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/52821c8bb55932a4d6692289e68cd101.png"},"elements":null,"scene":null},{"id":149,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/b638c04bdd574455c0c371f38ff0fbdb.png"
+},"elements":null,"scene":null},{"id":135,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/68a67f07df530df300f623dee9a18f81.png"},"elements":null,"scene":null},{"id":139,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/9482dae803dbfae3c6db6def22a9a6e9.png"
+},"elements":null,"scene":null},{"id":138,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/d17463323b5844bfc7ed00ede7916fc6.png"},"elements":null,"scene":null},{"id":137,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/1b61050e1eacf1b125eaa83a3614d7a5.png"
+},"elements":null,"scene":null},{"id":136,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/c32eaedbb1f17aee651b7d15da884c30.png"},"elements":null,"scene":null},{"id":142,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/2e746992e267bc5bb5fedc64c5c9c0db.png"
+},"elements":null,"scene":null},{"id":141,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/57adc6bacd0bbe3aef9756b91f87a244.png"},"elements":null,"scene":null},{"id":151,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/564e0fa149214f590afd6b0d45ee0d87.png"
+},"elements":null,"scene":null},{"id":140,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/9c0c7c5d3dcc4e9384c9bb8e249f6398.png"},"elements":null,"scene":null},{"id":147,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/c42021dcd18f2bcc287ab8ad35ec5185.png"
+},"elements":null,"scene":null},{"id":145,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/19ef37e5bbc472918815f0f648c3949e.png"},"elements":null,"scene":null},{"id":146,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/dbc155a49523bf4a9092c1a5853003ad.png"
+},"elements":null,"scene":null},{"id":144,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/307936e4e4d766f8c369ebe209d576fd.png"},"elements":null,"scene":null},{"id":143,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/2492259d8d6bca914d7eb2308e049081.png"
+},"elements":null,"scene":null},{"id":148,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/5ca7275242c3166b1b0a092cb7e5a580.png"},"elements":null,"scene":null},{"id":153,"sceneId"
+:1,"num":1,"name":"name","properties":{"thumbSrc":"syspic/page/363a47ceae373a1fa950bca1a695f41d.png"
+},"elements":null,"scene":null},{"id":152,"sceneId":1,"num":1,"name":"name","properties":{"thumbSrc"
+:"syspic/page/be4feb1d9344c8ac62cac98f9dc9a9e6.png"},"elements":null,"scene":null}]}
+
+
+保存第一页：
+URL:http://127.0.0.1/index.php?c=scene&a=savepage
+POST:
+{"id":2424,"sceneId":6205332,"num":1,"name":null,"properties":null,"elements":[{"id":60108559,"pageId"
+:"2424","sceneId":"6205332","type":"3","css":[],"properties":{"bgColor":"#F6F7FB"}},{"id":60108568,"pageId"
+:"2424","sceneId":"6205332","type":"4","css":{"height":"44","zIndex":"2","width":"50","left":"137px"
+,"top":"294px"},"properties":{"anim":{"type":2,"direction":3,"duration":0.8,"delay":1.3,"countNum":1
+},"height":"100px","imgStyle":{"width":50,"height":45,"marginTop":"-0.5px","marginLeft":"0px"},"width"
+:"100px","src":"syspic/pageimg/0247f4385bb72266188b71c96a44cae7.png"}},{"id":60108569,"pageId":"2424"
+,"sceneId":"6205332","type":"4","css":{"height":"48","zIndex":"3","width":"50","left":"40px","top":"360px"
+},"properties":{"anim":{"type":2,"direction":3,"duration":0.8,"delay":1.2,"countNum":1},"height":"100px"
+,"imgStyle":{"width":50,"height":48,"marginTop":"0px","marginLeft":"0px"},"width":"100px","src":"syspic
+/pageimg/484f75b008130b98a398f42bda1b6cea.png"}},{"id":60108570,"pageId":"2424","sceneId":"6205332","type"
+:"4","css":{"height":"65","zIndex":"4","width":"50","left":"231px","top":"319px"},"properties":{"anim"
+:{"type":2,"direction":3,"duration":0.8,"delay":1.4,"countNum":1},"height":"100px","imgStyle":{"width"
+:50,"height":66,"marginTop":"-0.5px","marginLeft":"0px"},"width":"100px","src":"syspic/pageimg/1b5f1ff6ecb464a46d0d45240e961485
+.png"}},{"id":60108564,"pageId":"2424","sceneId":"6205332","type":"4","css":{"height":"148","zIndex"
+:"5","width":"71","left":"128px","top":"338px"},"properties":{"anim":{"type":1,"direction":3,"duration"
+:0.4,"delay":1.1,"countNum":1},"height":"100px","imgStyle":{"width":93,"height":148,"marginTop":"0px"
+,"marginLeft":"-11px"},"width":"100px","src":"syspic/pageimg/dcb92838d92be9aab3fbc1babb2ac583.jpg"}}
+,{"id":60108565,"pageId":"2424","sceneId":"6205332","type":"4","css":{"height":"103","zIndex":"6","width"
+:"71","left":"222px","top":"383px"},"properties":{"anim":{"type":1,"direction":3,"duration":0.4,"delay"
+:1.2,"countNum":1},"height":"100px","imgStyle":{"width":71,"height":114,"marginTop":"-5.5px","marginLeft"
+:"0px"},"width":"100px","src":"syspic/pageimg/c48fbe5666c46e8cb95bf5bfd29f3c1e.jpg"}},{"id":60108563
+,"pageId":"2424","sceneId":"6205332","type":"4","css":{"height":"79","zIndex":"7","width":"71","left"
+:"30px","top":"407px"},"properties":{"anim":{"type":1,"direction":3,"duration":0.4,"delay":1,"countNum"
+:1},"height":"100px","imgStyle":{"width":71,"height":112,"marginTop":"-16.5px","marginLeft":"0px"},"width"
+:"100px","src":"syspic/pageimg/71b07a6de3211f45546c1b66cfdb07af.jpg"}},{"id":60108560,"pageId":"2424"
+,"sceneId":"6205332","type":"2","content":"<div style=\"text-align: center;\"><b style=\"color: inherit
+; line-height: inherit; background-color: initial;\"><font size=\"7\">2014</font></b></div><div style
+=\"text-align: center;\"><span style=\"color: inherit; line-height: inherit; background-color: initial
+;\"><font size=\"3\">2015年1月26日</font></span></div>","css":{"height":"91","zIndex":"8","width":"159"
+,"left":"7px","top":"71px"},"properties":{"anim":{"type":1,"direction":0,"duration":1,"delay":0.4,"countNum"
+:1}}},{"id":60108566,"pageId":"2424","sceneId":"6205332","type":"4","css":{"borderRadius":"0px","lineHeight"
+:"1","borderStyle":"solid","paddingTop":"0","zIndex":"9","borderColor":"rgba(0,0,0,1)","backgroundColor"
+:"","width":"256","borderTopRightRadius":"0px","borderBottomRightRadius":"0px","borderRadiusPerc":"0"
+,"transform":"rotateZ(0deg)","height":"24","borderTopLeftRadius":"0px","boxShadow":"0px 0px 0px rgba
+(0,0,0,0.5)","color":"#676767","borderWidth":"0","borderBottomLeftRadius":"0px","opacity":"0.6","left"
+:"32px","boxShadowSize":"0","paddingBottom":"0","boxShadowDirection":"0","top":"150px"},"properties"
+:{"anim":{"type":2,"direction":0,"duration":1,"delay":0.6,"countNum":1},"height":"100px","imgStyle":
+{"width":256,"height":41,"marginTop":"-8.5px","marginLeft":"0px"},"width":"100px","src":"syspic/pageimg
+/0e93eaae2d4aad5b2a936d9887fd26de.png"}},{"id":60108561,"pageId":"2424","sceneId":"6205332","type":"2"
+,"content":"<font size=\"6\">中国互联网</font><div><font size=\"6\">数据总结报告23</font></div>","css":{"borderRadius"
+:"0px","lineHeight":"1.0","borderStyle":"solid","paddingTop":"0","zIndex":"10","borderColor":"rgba(0
+,0,0,1)","backgroundColor":"","width":223,"borderTopRightRadius":"0px","borderBottomRightRadius":"0px"
+,"borderRadiusPerc":"0","transform":"rotateZ(0deg)","height":107,"borderTopLeftRadius":"0px","color"
+:"#676767","boxShadow":"0px 0px 0px rgba(0,0,0,0.5)","borderWidth":"0","borderBottomLeftRadius":"0px"
+,"opacity":"1","left":20,"boxShadowSize":"0","paddingBottom":"0","top":177,"boxShadowDirection":"0"}
+,"properties":{"anim":{"type":1,"direction":0,"duration":1,"delay":0.8,"countNum":1},"width":223,"height"
+:107}},{"id":60108567,"pageId":"2424","sceneId":"6205332","type":"4","css":{"borderRadius":"0px","lineHeight"
+:"1","borderStyle":"solid","paddingTop":"0","zIndex":"11","borderColor":"rgba(0,0,0,1)","backgroundColor"
+:"","width":"51","borderTopRightRadius":"0px","borderBottomRightRadius":"0px","borderRadiusPerc":"0"
+,"transform":"rotateZ(0deg)","height":"51","borderTopLeftRadius":"0px","boxShadow":"0px 0px 0px rgba
+(0,0,0,0.5)","color":"#676767","borderWidth":"0","borderBottomLeftRadius":"0px","opacity":"1","left"
+:"234px","boxShadowSize":"0","paddingBottom":"0","boxShadowDirection":"0","top":"183px"},"properties"
+:{"anim":{"type":3,"direction":0,"duration":0.4,"delay":1.4,"countNum":1},"height":"100px","imgStyle"
+:{"width":51,"height":51,"marginTop":"0px","marginLeft":"0px"},"width":"100px","src":"syspic/pageimg
+/2be190ffeaf1527e457acf7aff4ea603.png"}}],"scene":{"id":6205332,"name":"2014年中国互联网数据总结报告","createUser"
+:"6","createTime":1425998747000,"type":101,"pageMode":5,"image":{"imgSrc":"5","isAdvancedUser":false
+,"bgAudio":{"url":"syspic/mp3/99138a704dc87beaf444da18a1908de6.mp3","type":"3"}},"isTpl":0,"isPromotion"
+:0,"status":1,"openLimit":0,"submitLimit":0,"startDate":null,"endDate":null,"accessCode":null,"thirdCode"
+:null,"updateTime":1426038857000,"publishTime":1426038857000,"applyTemplate":0,"applyPromotion":0,"sourceId"
+:null,"code":"U60820Q58QDJ","description":"","sort":0,"pageCount":0,"dataCount":0,"showCount":0,"userLoginName"
+:null,"userName":null}}
+
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map":null,"list":null}
+
+
+点击第二页：
+URL:http://127.0.0.1/index.php?c=scene&a=design&id=2425&time=1440039969106
+返回：
+{"success": true,"code": 200,"msg": "success","obj": {"id": 2425,"sceneId": 6205332,"num": 2,"name":
+ null,"properties": null,"elements": [{"id":60172040,"pageId":"2425","sceneId":"6205332","type":"2","content"
+:"<b><font size=\"6\">2014<\/font><\/b>","css":{"zIndex":"205","height":"44","width":"320","left":"0px"
+,"top":"6px"},"properties":{"anim":{"type":1,"direction":0,"duration":1,"delay":0.2,"countNum":1}}},
+{"id":60172041,"pageId":"2425","sceneId":"6205332","type":"2","content":"<font size=\"4\">\u4e2d\u56fd
+\u4e92\u8054\u7f51\u884c\u4e1a\u5927\u76d8\u70b9<\/font>","css":{"zIndex":"198","left":"0px","top":"40px"
+},"properties":{"anim":{"type":1,"direction":0,"duration":1,"delay":0.4,"countNum":1}}},{"id":60172042
+,"pageId":"2425","sceneId":"6205332","type":"2","content":"<font size=\"2\">2014\u5e74\uff0c\u4e2d\u56fd
+\u4e92\u8054\u7f51\u53d1\u751f\u4e86\u5982\u6b64\u591a\u7684\u4e8b\u60c5\uff0c\u60f3\u8981\u7528\u4e00
+\u7bc7\u6587\u7ae0\u6765\u8bb2\u8ff0\u6574\u4e2a\u53d8\u5316\u662f\u4e0d\u53ef\u80fd\u7684\uff0c\u4f46
+\u662f\u5229\u7528\u6570\u5b57\uff0c\u6211\u4eec\u5374\u53ef\u4ee5\u5728\u6709\u9650\u7684\u7bc7\u5e45
+\u91cc\u5448\u73b0\u66f4\u591a\u7684\u884c\u4e1a\u72b6\u6001\u3002\u4e0b\u9762\u5c06\u5bf9\u963f\u91cc
+\u5df4\u5df4\u3001\u5c0f\u7c73\u3001\u79fb\u52a8\u5e94\u7528\u3001\u5728\u7ebf\u6559\u80b2\u3001\u4e92
+\u8054\u7f51\u91d1\u878d\u3001O2O\u7b49\u70ed\u70b9\u9886\u57df\u548c\u8bdd\u9898\u6765\u4e2a\u62bd\u4e1d
+\u5265\u8327\u5f0f\u76d8\u70b9\uff0c\u4e0e\u5404\u4f4d\u8bfb\u8005\u4e00\u8d77\u56de\u987e2014\u5e74
+\u90a3\u4e9b\u9c9c\u4e3a\u4eba\u77e5\u7684\u4e2d\u56fd\u4e92\u8054\u7f51\u6570\u636e\u3002<\/font>","css"
+:{"zIndex":"217","height":"193","width":"320","left":"0px","top":"272px"},"properties":{"anim":{"type"
+:1,"direction":3,"duration":2,"delay":0.4,"countNum":1}}},{"id":60172047,"pageId":"2425","sceneId":"6205332"
+,"type":"4","css":{"zIndex":"243","height":"24","width":"288","left":"16.7175903320313px","top":"72.7175903320313px"
+},"properties":{"anim":{"type":1,"direction":0,"duration":0.6,"delay":0.8,"countNum":1},"height":"100px"
+,"imgStyle":{"width":288,"height":56,"marginTop":"-16px","marginLeft":"0px"},"width":"100px","src":"syspic
+\/pageimg\/0e93eaae2d4aad5b2a936d9887fd26de.png"}},{"id":60172044,"pageId":"2425","sceneId":"6205332"
+,"type":"4","css":{"transform":"rotateZ(312.6784694101673deg)","zIndex":"237","height":"57","width":"57"
+,"left":"158px","top":"101px"},"properties":{"anim":{"type":1,"direction":0,"duration":0.8,"delay":0
+.8,"countNum":1},"height":"100px","imgStyle":{"width":57,"height":57,"marginTop":"0px","marginLeft":"0px"
+},"width":"100px","src":"syspic\/pageimg\/f7416ec6b522d3335d2f670b2dc006f4.png"}},{"id":60143538,"pageId"
+:"2425","sceneId":"6205332","type":"3","css":[],"properties":{"bgColor":"#F6F7FB"}},{"id":60172045,"pageId"
+:"2425","sceneId":"6205332","type":"4","css":{"transform":"rotateZ(350.61848983925177deg)","zIndex":"109"
+,"height":"59","width":"59","left":"206px","top":"147px"},"properties":{"anim":{"type":1,"direction"
+:0,"duration":0.8,"delay":1.3,"countNum":1},"height":"100px","imgStyle":{"width":59,"height":59,"marginTop"
+:"0px","marginLeft":"0px"},"width":"100px","src":"syspic\/pageimg\/c77aa4e3850c5ccd1a482910e68b7428.png"
+}},{"id":60172043,"pageId":"2425","sceneId":"6205332","type":"4","css":{"zIndex":"242","height":"97"
+,"width":"104","left":"61px","top":"171px"},"properties":{"anim":{"type":9,"direction":0,"duration":0
+.4,"delay":0.8,"countNum":3},"height":"100px","imgStyle":{"width":104,"height":98,"marginTop":"-0.5px"
+,"marginLeft":"0px"},"width":"100px","src":"syspic\/pageimg\/484f75b008130b98a398f42bda1b6cea.png"}}
+,{"id":60172046,"pageId":"2425","sceneId":"6205332","type":"4","css":{"transform":"rotateZ(16.84380855172742deg
+)","zIndex":"230","height":"59","width":"59","left":"188px","top":"211px"},"properties":{"anim":{"type"
+:1,"direction":0,"duration":0.8,"delay":1.6,"countNum":1},"height":"100px","imgStyle":{"width":59,"height"
+:59,"marginTop":"0px","marginLeft":"0px"},"width":"100px","src":"syspic\/pageimg\/8c40bff5e38429526b6e052342a1d822
+.png"}}],"scene": {"id": 6205332,"name": "2014\u5e74\u4e2d\u56fd\u4e92\u8054\u7f51\u6570\u636e\u603b
+\u7ed3\u62a5\u544a","createUser": "6","createTime": 1425998747000,"type": 101,"pageMode": 5,"image":
+ {"imgSrc": "5","isAdvancedUser": false,"bgAudio": {"url": "syspic/mp3/99138a704dc87beaf444da18a1908de6
+.mp3","type": "3"}},"isTpl": 0,"isPromotion": 0,"status": 1,"openLimit": 0,	"submitLimit": 0,	"startDate"
+: null,	"endDate": null,	"accessCode": null,	"thirdCode": null,	"updateTime": 1426038857000,	"publishTime"
+: 1426038857000,	"applyTemplate": 0,	"applyPromotion": 0,	"sourceId": null,	"code": "U60820Q58QDJ",	"description"
+: "",	"sort": 0,"pageCount": 0,	"dataCount": 0,	"showCount": 0,	"userLoginName": null,"userName": null
+}},	"map": null,"list": null}
+
+保存第二页
+URL:http://127.0.0.1/index.php?c=scene&a=savepage
+POST:
+{"id":2425,"sceneId":6205332,"num":2,"name":null,"properties":null,"elements":[{"id":60172045,"pageId"
+:"2425","sceneId":"6205332","type":"4","css":{"transform":"rotateZ(350.61848983925177deg)","zIndex":"1"
+,"height":"59","width":"59","left":"206px","top":"147px"},"properties":{"anim":{"type":1,"direction"
+:0,"duration":0.8,"delay":1.3,"countNum":1},"height":"100px","imgStyle":{"width":59,"height":59,"marginTop"
+:"0px","marginLeft":"0px"},"width":"100px","src":"syspic/pageimg/c77aa4e3850c5ccd1a482910e68b7428.png"
+}},{"id":60172041,"pageId":"2425","sceneId":"6205332","type":"2","content":"<font size=\"4\">中国互联网行业
+大盘点234</font>","css":{"zIndex":"2","left":"0px","top":"40px","lineHeight":"1.0"},"properties":{"anim"
+:{"type":1,"direction":0,"duration":1,"delay":0.4,"countNum":1}}},{"id":60172040,"pageId":"2425","sceneId"
+:"6205332","type":"2","content":"<b><font size=\"6\">2014</font></b>","css":{"zIndex":"3","height":"44"
+,"width":"320","left":"0px","top":"6px"},"properties":{"anim":{"type":1,"direction":0,"duration":1,"delay"
+:0.2,"countNum":1}}},{"id":60172042,"pageId":"2425","sceneId":"6205332","type":"2","content":"<font size
+=\"2\">2014年，中国互联网发生了如此多的事情，想要用一篇文章来讲述整个变化是不可能的，但是利用数字，我们却可以在有限的篇幅里呈现更多的行业状态。下面将对阿里巴巴、小米、移动应用、在线教育、互
+联网金融、O2O等热点领域和话题来个抽丝剥茧式盘点，与各位读者一起回顾2014年那些鲜为人知的中国互联网数据。</font>","css":{"zIndex":"4","height":"193","width"
+:"320","left":"0px","top":"272px"},"properties":{"anim":{"type":1,"direction":3,"duration":2,"delay"
+:0.4,"countNum":1}}},{"id":60172046,"pageId":"2425","sceneId":"6205332","type":"4","css":{"transform"
+:"rotateZ(16.84380855172742deg)","zIndex":"5","height":"59","width":"59","left":"188px","top":"211px"
+},"properties":{"anim":{"type":1,"direction":0,"duration":0.8,"delay":1.6,"countNum":1},"height":"100px"
+,"imgStyle":{"width":59,"height":59,"marginTop":"0px","marginLeft":"0px"},"width":"100px","src":"syspic
+/pageimg/8c40bff5e38429526b6e052342a1d822.png"}},{"id":60143538,"pageId":"2425","sceneId":"6205332","type"
+:"3","css":[],"properties":{"bgColor":"#F6F7FB"}},{"id":60172044,"pageId":"2425","sceneId":"6205332"
+,"type":"4","css":{"transform":"rotateZ(312.6784694101673deg)","zIndex":"7","height":"57","width":"57"
+,"left":"158px","top":"101px"},"properties":{"anim":{"type":1,"direction":0,"duration":0.8,"delay":0
+.8,"countNum":1},"height":"100px","imgStyle":{"width":57,"height":57,"marginTop":"0px","marginLeft":"0px"
+},"width":"100px","src":"syspic/pageimg/f7416ec6b522d3335d2f670b2dc006f4.png"}},{"id":60172043,"pageId"
+:"2425","sceneId":"6205332","type":"4","css":{"zIndex":"8","height":"97","width":"104","left":"61px"
+,"top":"171px"},"properties":{"anim":{"type":9,"direction":0,"duration":0.4,"delay":0.8,"countNum":3
+},"height":"100px","imgStyle":{"width":104,"height":98,"marginTop":"-0.5px","marginLeft":"0px"},"width"
+:"100px","src":"syspic/pageimg/484f75b008130b98a398f42bda1b6cea.png"}},{"id":60172047,"pageId":"2425"
+,"sceneId":"6205332","type":"4","css":{"zIndex":"9","height":"24","width":"288","left":"16.7175903320313px"
+,"top":"72.7175903320313px"},"properties":{"anim":{"type":1,"direction":0,"duration":0.6,"delay":0.8
+,"countNum":1},"height":"100px","imgStyle":{"width":288,"height":56,"marginTop":"-16px","marginLeft"
+:"0px"},"width":"100px","src":"syspic/pageimg/0e93eaae2d4aad5b2a936d9887fd26de.png"}}],"scene":{"id"
+:6205332,"name":"2014年中国互联网数据总结报告","createUser":"6","createTime":1425998747000,"type":101,"pageMode"
+:5,"image":{"imgSrc":"5","isAdvancedUser":false,"bgAudio":{"url":"syspic/mp3/99138a704dc87beaf444da18a1908de6
+.mp3","type":"3"}},"isTpl":0,"isPromotion":0,"status":1,"openLimit":0,"submitLimit":0,"startDate":null
+,"endDate":null,"accessCode":null,"thirdCode":null,"updateTime":1426038857000,"publishTime":1426038857000
+,"applyTemplate":0,"applyPromotion":0,"sourceId":null,"code":"U60820Q58QDJ","description":"","sort":0
+,"pageCount":0,"dataCount":0,"showCount":0,"userLoginName":null,"userName":null}}
+
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map":null,"list":null}
+
+发布：
+URL:http://127.0.0.1/index.php?c=scene&a=publish&id=6205332&time=1440040214209
+返回：
+{"success":true,"code":200,"msg":"操作成功","obj":null,"map":null,"list":null}
+
+URL:http://127.0.0.1/index.php?c=scene&a=detail&id=6205332
+返回：
+{
+			"success": true,
+			"code": 200,
+			"msg": "success",
+			"obj": {
+				"id": 6205332,
+				"name": "2014\u5e74\u4e2d\u56fd\u4e92\u8054\u7f51\u6570\u636e\u603b\u7ed3\u62a5\u544a",
+				"createUser": "6",
+				"createTime": 1425998747000,
+				"type": 101,
+				"pageMode": 5,
+				"eqcode": "",
+				"image": {
+					"imgSrc": "syspic/scene/c2054991224a245c4fd4a527c7c9f121.jpg",
+					"isAdvancedUser": 0,
+                    "lastPageId":0,
+                    "hideEqAd":0,"bgAudio": {"url": "syspic/mp3/99138a704dc87beaf444da18a1908de6.mp3"
+,"type": "3"}},
+				"isTpl": 0,
+				"isPromotion": 0,
+				"status": 1,
+				"openLimit": 0,
+				"submitLimit": 0,
+				"startDate": null,
+				"endDate": null,
+				"accessCode": null,
+				"thirdCode": null,
+				"updateTime": 1426041829000,
+				"publishTime": 1426041829000,
+				"applyTemplate": 0,
+				"applyPromotion": 0,
+				"sourceId": null,
+				"code": "U60820Q58QDJ",
+				"description": null,
+				"sort": 0,
+				"pageCount": 0,
+				"dataCount": 0,
+				"showCount": 0,
+				"userLoginName": null,
+				"userName": null
+			},
+			"map": null,
+			"list": null
+		}
+
+URL:http://127.0.0.1/index.php?c=user&a=xd&time=1440040214627
+返回：
+{"success":true,"code":200,"msg":"操作成功","obj":0,"map":null,"list":null}
+
+URL:http://127.0.0.1/index.php?c=scene&a=getpagetpl&type=1301&time=1440040214627
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map":null,"list":[{"id":604961,"sceneId":1301
+,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/35e3abac91cfb36d904cda2b91bb7b5d_thumb.jpg"
+},"elements":null,"scene":null},{"id":604962,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/9221af4eee79fcfcff8eeaa69c63f28d_thumb.jpg"},"elements":null,"scene":null},{"id":604963,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/2570464d4c6e6af45f0900e03f7a49b7_thumb
+.jpg"},"elements":null,"scene":null},{"id":604964,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/f9be1be071d2d4f13122da9f01f27a60_thumb.jpg"},"elements":null,"scene":null},{"id":604965,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/930b6d004062aa6624f9c729718f3dae_thumb
+.jpg"},"elements":null,"scene":null},{"id":604966,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/00efb9ae0632bb50e2a1fd24711ba086_thumb.jpg"},"elements":null,"scene":null},{"id":604967,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/1afbd14d6b9083713841c32dddd477f6_thumb
+.jpg"},"elements":null,"scene":null},{"id":604968,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/4e560186cabd2fcb746cbf103547a628_thumb.jpg"},"elements":null,"scene":null},{"id":604969,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/e39194957e8c370fe2da4e37a5e6c8c5_thumb
+.jpg"},"elements":null,"scene":null},{"id":604970,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/352cf39d0fa59b4a80f779bf6d97fb5a_thumb.jpg"},"elements":null,"scene":null},{"id":604971,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/6bca981d753f0ba3e51f5dd8b09c705f_thumb
+.jpg"},"elements":null,"scene":null},{"id":604972,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/fcccbe8bb9cafac27771980f15413e23_thumb.jpg"},"elements":null,"scene":null},{"id":604973,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/8f8412ad862daf4b5b6f6878901973fb_thumb
+.jpg"},"elements":null,"scene":null},{"id":604974,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/5db6dd81c4b736ca1769035737bd8a65_thumb.jpg"},"elements":null,"scene":null},{"id":604975,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/aa72039099d92f84b6451fb865250c47_thumb
+.jpg"},"elements":null,"scene":null},{"id":604976,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/9cc6e40a5bf1732b32b2d6fa7dfb39be_thumb.jpg"},"elements":null,"scene":null},{"id":604977,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/f0cfe9abc21674132b9dc1473f413617_thumb
+.jpg"},"elements":null,"scene":null},{"id":604978,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/78e03aa202c2b75d90b3d5e06f19e6a8_thumb.jpg"},"elements":null,"scene":null},{"id":604979,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/d9372f1d397e5eb2dd41e9d9a9612ce4_thumb
+.jpg"},"elements":null,"scene":null},{"id":604980,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/af7995733855d3b5bb53c794167c718f_thumb.jpg"},"elements":null,"scene":null},{"id":604981,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/0ea4703e9371519dd5756514479406ed_thumb
+.jpg"},"elements":null,"scene":null},{"id":604982,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/0583ea655e0c90fd26ea81f61d5d3517_thumb.jpg"},"elements":null,"scene":null},{"id":604983,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/aeb15d7d63b4588cc6a48c3619a18184_thumb
+.jpg"},"elements":null,"scene":null},{"id":604984,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/f248832e144d266360250b4858c66df1_thumb.jpg"},"elements":null,"scene":null},{"id":604985,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/561bfea2fa98a73253969ecf438d4408_thumb
+.jpg"},"elements":null,"scene":null},{"id":604986,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/1e6d2492bf4a11d4ee284e85cc1bf33e_thumb.jpg"},"elements":null,"scene":null},{"id":604987,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/ee9aaf6d76fe58ba017bc4bcfb340784_thumb
+.jpg"},"elements":null,"scene":null},{"id":604988,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/75c65cfe0f4a2b12db718aa687699141_thumb.jpg"},"elements":null,"scene":null},{"id":604989,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/b373d7844e793d6cdf30ea932c5f539e_thumb
+.jpg"},"elements":null,"scene":null}]}
+
+URL:http://127.0.0.1/index.php?c=scene&a=getpagetpl&type=1311&time=1440040214627
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map":null,"list":[{"id":604961,"sceneId":1301
+,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/35e3abac91cfb36d904cda2b91bb7b5d_thumb.jpg"
+},"elements":null,"scene":null},{"id":604962,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/9221af4eee79fcfcff8eeaa69c63f28d_thumb.jpg"},"elements":null,"scene":null},{"id":604963,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/2570464d4c6e6af45f0900e03f7a49b7_thumb
+.jpg"},"elements":null,"scene":null},{"id":604964,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/f9be1be071d2d4f13122da9f01f27a60_thumb.jpg"},"elements":null,"scene":null},{"id":604965,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/930b6d004062aa6624f9c729718f3dae_thumb
+.jpg"},"elements":null,"scene":null},{"id":604966,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/00efb9ae0632bb50e2a1fd24711ba086_thumb.jpg"},"elements":null,"scene":null},{"id":604967,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/1afbd14d6b9083713841c32dddd477f6_thumb
+.jpg"},"elements":null,"scene":null},{"id":604968,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/4e560186cabd2fcb746cbf103547a628_thumb.jpg"},"elements":null,"scene":null},{"id":604969,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/e39194957e8c370fe2da4e37a5e6c8c5_thumb
+.jpg"},"elements":null,"scene":null},{"id":604970,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/352cf39d0fa59b4a80f779bf6d97fb5a_thumb.jpg"},"elements":null,"scene":null},{"id":604971,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/6bca981d753f0ba3e51f5dd8b09c705f_thumb
+.jpg"},"elements":null,"scene":null},{"id":604972,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/fcccbe8bb9cafac27771980f15413e23_thumb.jpg"},"elements":null,"scene":null},{"id":604973,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/8f8412ad862daf4b5b6f6878901973fb_thumb
+.jpg"},"elements":null,"scene":null},{"id":604974,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/5db6dd81c4b736ca1769035737bd8a65_thumb.jpg"},"elements":null,"scene":null},{"id":604975,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/aa72039099d92f84b6451fb865250c47_thumb
+.jpg"},"elements":null,"scene":null},{"id":604976,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/9cc6e40a5bf1732b32b2d6fa7dfb39be_thumb.jpg"},"elements":null,"scene":null},{"id":604977,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/f0cfe9abc21674132b9dc1473f413617_thumb
+.jpg"},"elements":null,"scene":null},{"id":604978,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/78e03aa202c2b75d90b3d5e06f19e6a8_thumb.jpg"},"elements":null,"scene":null},{"id":604979,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/d9372f1d397e5eb2dd41e9d9a9612ce4_thumb
+.jpg"},"elements":null,"scene":null},{"id":604980,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/af7995733855d3b5bb53c794167c718f_thumb.jpg"},"elements":null,"scene":null},{"id":604981,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/0ea4703e9371519dd5756514479406ed_thumb
+.jpg"},"elements":null,"scene":null},{"id":604982,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/0583ea655e0c90fd26ea81f61d5d3517_thumb.jpg"},"elements":null,"scene":null},{"id":604983,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/aeb15d7d63b4588cc6a48c3619a18184_thumb
+.jpg"},"elements":null,"scene":null},{"id":604984,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/f248832e144d266360250b4858c66df1_thumb.jpg"},"elements":null,"scene":null},{"id":604985,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/561bfea2fa98a73253969ecf438d4408_thumb
+.jpg"},"elements":null,"scene":null},{"id":604986,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/1e6d2492bf4a11d4ee284e85cc1bf33e_thumb.jpg"},"elements":null,"scene":null},{"id":604987,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/ee9aaf6d76fe58ba017bc4bcfb340784_thumb
+.jpg"},"elements":null,"scene":null},{"id":604988,"sceneId":1301,"num":1,"name":null,"properties":{"thumbSrc"
+:"syspic/bg/75c65cfe0f4a2b12db718aa687699141_thumb.jpg"},"elements":null,"scene":null},{"id":604989,"sceneId"
+:1301,"num":1,"name":null,"properties":{"thumbSrc":"syspic/bg/b373d7844e793d6cdf30ea932c5f539e_thumb
+.jpg"},"elements":null,"scene":null}]}
+
+URL:http://127.0.0.1/index.php?c=statics&a=all&line=7248&pageNo=1&pageSize=4&unread=true&time=1440040214715
+返回：
+{"success":true,"code":200,"msg":"操作成功","obj":null,"map":[{"id":16633,"name":"行业","value":"101","type"
+:"scene_type","sort":1,"status":1,"remark":null}],"list":null}
+
+URL:http://127.0.0.1/index.php?c=statics&a=typelist
+返回：
+{"success":true,"code":200,"msg":"操作成功","obj":null,"map":null,"list":[{"id":13,"name":"行业","value":101
+,"type":"scene_type","sort":1,"status":1,"remark":null},{"id":14,"name":"企业","value":103,"type":"scene_type"
+,"sort":2,"status":1,"remark":null},{"id":15,"name":"风格","value":105,"type":"scene_type","sort":3,"status"
+:1,"remark":null},{"id":16,"name":"个人","value":102,"type":"scene_type","sort":4,"status":1,"remark":null
+},{"id":17,"name":"节日","value":104,"type":"scene_type","sort":5,"status":1,"remark":null}]}
+
+URL:http://127.0.0.1/index.php?c=upfile&a=userlist&bizType=99&fileType=1&time=1440040215196
+返回：
+{"success":true,"code":200,"msg":"success","obj":null,"map":{"count":0,"pageNo":1,"pageSize":17},"list"
+:[]}
+
+保存设置
+URL:http://127.0.0.1/index.php?c=scene&a=saveSettings
+POST:
+{"id":6205332,"name":"2014年中国互联网数据总结报告","createUser":"6","createTime":1425998747000,"type":101,"pageMode"
+:5,"eqcode":"","image":{"imgSrc":"syspic/scene/c2054991224a245c4fd4a527c7c9f121.jpg","isAdvancedUser"
+:0,"lastPageId":0,"hideEqAd":0,"bgAudio":{"url":"syspic/mp3/99138a704dc87beaf444da18a1908de6.mp3","type"
+:"3"}},"isTpl":"0","isPromotion":0,"status":1,"openLimit":0,"submitLimit":0,"startDate":null,"endDate"
+:null,"accessCode":null,"thirdCode":null,"updateTime":1426041829000,"publishTime":1426041829000,"applyTemplate"
+:"0","applyPromotion":"0","sourceId":null,"code":"U60820Q58QDJ","description":null,"sort":0,"pageCount"
+:0,"dataCount":0,"showCount":0,"userLoginName":null,"userName":null,"property":"{}"}
+
+返回：
+{"success":true,"code":200,"msg":"success2014\u5e74\u4e2d\u56fd\u4e92\u8054\u7f51\u6570\u636e\u603b\u7ed3
+\u62a5\u544a","obj":null,"map":null,"list":null}

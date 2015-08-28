@@ -2,6 +2,7 @@ package wx.util;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
 
 public class JsonBuilder {
@@ -33,6 +34,13 @@ public class JsonBuilder {
 		return this;
 	}
 	
+	public JsonBuilder appendNull(String name) {
+	    if (sb.length() > 1)
+            sb.append(",");
+        sb.append("\"").append(name).append("\":null");
+        return this;
+	}
+	
 	public JsonBuilder append(String name, String value) {
 		if (name == null || value == null)
 			return this;
@@ -55,6 +63,20 @@ public class JsonBuilder {
 			sb.append(",");
 		sb.append("\"").append(name).append("\":").append(value);
 		return this;
+	}
+	
+	public JsonBuilder append(String name, List<JsonBuilder> values) {
+	    if (sb.length() > 1)
+            sb.append(",");
+	    sb.append("\"").append(name).append("\":[");
+	    for (JsonBuilder v : values) {
+            sb.append(v.toString()).append(",");
+        }
+	    if (sb.charAt(sb.length() - 1) == ',') {
+	        sb.setLength(sb.length() - 1);
+	    }
+	    sb.append("]");
+	    return this;
 	}
 	
 	public JsonBuilder append(String name, JsonBuilder value) {

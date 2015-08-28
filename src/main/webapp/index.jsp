@@ -1,4 +1,6 @@
 <%@ page contentType="text/html; charset=utf-8" language="java"%>
+<%@ include file="/common.jsp"%>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>

@@ -129,6 +129,13 @@ public class Util {
 		}
 	}
 
+	public static long obj2long(Object s) {
+		if (s instanceof Number) {
+			return ((Number)s).longValue();
+		}
+		return str2long(String.valueOf(s));
+	}
+	
 	public static long str2long(String s) {
 		return str2long(s, 0);
 	}

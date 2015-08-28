@@ -13,20 +13,45 @@
 		<property name="driverClass">
 			<value>com.mysql.jdbc.Driver</value>
 		</property>
-		
-		<!-- 
 		<property name="jdbcUrl">
-			<value>jdbc:mysql://127.0.0.1/wwerp?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</value>
+			<value>jdbc:mysql://127.0.0.1/weixing?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</value>
 		</property>
 		<property name="user">
 			<value>im</value>
 		</property>
 		<property name="password">
 			<value>im</value>
-		</property> -->
-		
+		</property>
+	 
+		<property name="minPoolSize">
+			<value>5</value>
+		</property>
+		<property name="maxPoolSize">
+			<value>15</value>
+		</property>
+		<property name="maxIdleTime">
+			<value>28</value>
+		</property>
+		<property name="breakAfterAcquireFailure">
+			<value>true</value>
+		</property>
+		<property name="checkoutTimeout">
+			<value>5000</value>
+		</property>
+		<property name="acquireRetryAttempts">
+			<value>100000</value>
+		</property>
+		<property name="acquireRetryDelay">
+			<value>5000</value>
+		</property>
+	</bean>
+	
+	<bean id="dataSourceYqx" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
 		<property name="jdbcUrl">
-			<value>jdbc:mysql://127.0.0.1/weixing?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</value>
+			<value>jdbc:mysql://127.0.0.1/yqx?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</value>
 		</property>
 		<property name="user">
 			<value>im</value>
@@ -60,6 +85,10 @@
 
 	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
 		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+	<bean id="jtYqx" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSourceYqx"></property>
 	</bean>
 
 	<bean id="wxDao" class="wx.WxDao">

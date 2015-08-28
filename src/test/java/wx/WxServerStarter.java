@@ -1,5 +1,7 @@
 package wx;
 
+import java.net.URLEncoder;
+
 //import org.eclipse.jetty.server.Server;
 //import org.eclipse.jetty.webapp.WebAppContext;
 
@@ -28,6 +30,7 @@ public class WxServerStarter {
 			e.printStackTrace();
 		}
 		*/
+	    System.out.println(URLEncoder.encode("100圆=4万个", "utf-8"));
 	}
 
 }
